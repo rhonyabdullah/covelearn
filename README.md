@@ -1,2 +1,2 @@
-# covelearn
-Android image processing app with opencv.org as the base library.
+# Covelearn
+Android image processing app with [OpenCv](https://opencv.org) as the base library.
