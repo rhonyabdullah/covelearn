@@ -13,7 +13,7 @@ class HomeActivity : AppCompatActivity() {
 
         bMean.setOnClickListener {
             start(MainActivity::class.java) {
-                putExtra("ACTION_MODE", MEAN_BLUR)
+                putExtra(ACTION_MODE, MEAN_BLUR)
             }
         }
     }

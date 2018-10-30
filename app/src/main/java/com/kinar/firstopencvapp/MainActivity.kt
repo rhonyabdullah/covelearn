@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean = when (item.itemId) {
-        R.menu.menu_main -> {
+        R.id.action_load_image -> {
             val intent = Intent(Intent.ACTION_PICK).apply { type = "image/*" }
             startActivityForResult(intent, SELECT_PHOTO)
             true
@@ -98,6 +98,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     companion object {
-        private const val SELECT_PHOTO = 123456
+        private const val SELECT_PHOTO = 100
     }
 }
